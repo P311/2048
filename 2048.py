@@ -215,7 +215,7 @@ def game():
 
     init()
     screen = display.set_mode(SCREEN_SIZE, 0, 32)
-    background = image.load("title.png").convert()
+    background = image.load("Title.png").convert()
     start = False
     while True:
         if start:
